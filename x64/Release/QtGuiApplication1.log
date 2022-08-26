@@ -1,0 +1,45 @@
+﻿生成启动时间为 2022/8/9 21:35:39。
+     1>项目“D:\vs2015代码\StudentMangerSystem\QtGuiApplication1\QtGuiApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>项目“D:\vs2015代码\StudentMangerSystem\QtGuiApplication1\QtGuiApplication1.vcxproj”(1)正在节点 2 上生成“D:\vs2015代码\StudentMangerSystem\QtGuiApplication1\QtGuiApplication1.vcxproj”(1:2) (Build 个目标)。
+     1>QtRccSetDependencies:
+         "D:\QT5.9.1\running\5.9.1\msvc2015_64\bin\rcc.exe" --list "QtGuiApplication1.qrc" > "x64\Release\rcc_list.txt" 2> nul
+       QtWork:
+         moc teacherManger.h
+       ClCompile:
+         D:\vs2015\runing\VC\bin\x86_amd64\CL.exe /c /Ix64\Release\uic /Ix64\Release\moc /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include /I.\ /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtWidgets /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtGui /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtANGLE /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtSql /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtCore /I"D:\QT5.9.1\running\5.9.1\msvc2015_64\mkspecs\win32-msvc" /Ix64\Release\moc /Ix64\Release\uic /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp mainInterface.cpp teacherManger.cpp teacherMangerSystem.cpp
+         main.cpp
+         mainInterface.cpp
+         teacherManger.cpp
+         teacherMangerSystem.cpp
+         D:\vs2015\runing\VC\bin\x86_amd64\CL.exe /c /Ix64\Release\uic /Ix64\Release\moc /I"D:\vs2015代码\StudentMangerSystem\QtGuiApplication1\\" /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include /I.\ /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtWidgets /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtGui /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtANGLE /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtSql /ID:\QT5.9.1\running\5.9.1\msvc2015_64\include\QtCore /I"D:\QT5.9.1\running\5.9.1\msvc2015_64\mkspecs\win32-msvc" /Ix64\Release\moc /Ix64\Release\uic /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt x64\Release\\moc\moc_mainInterface.cpp x64\Release\\moc\moc_teacherManger.cpp x64\Release\\moc\moc_teacherMangerSystem.cpp
+         moc_mainInterface.cpp
+         moc_teacherManger.cpp
+         moc_teacherMangerSystem.cpp
+       Link:
+         D:\vs2015\runing\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs2015代码\StudentMangerSystem\x64\Release\\QtGuiApplication1.exe" /NOLOGO /LIBPATH:D:\QT5.9.1\running\5.9.1\msvc2015_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib D:\QT5.9.1\running\5.9.1\msvc2015_64\lib\Qt5Sql.lib D:\QT5.9.1\running\5.9.1\msvc2015_64\lib\qtmain.lib shell32.lib D:\QT5.9.1\running\5.9.1\msvc2015_64\lib\Qt5Widgets.lib D:\QT5.9.1\running\5.9.1\msvc2015_64\lib\Qt5Gui.lib D:\QT5.9.1\running\5.9.1\msvc2015_64\lib\Qt5Sql.lib D:\QT5.9.1\running\5.9.1\msvc2015_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vs2015代码\StudentMangerSystem\x64\Release\QtGuiApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs2015代码\StudentMangerSystem\x64\Release\QtGuiApplication1.lib" /MACHINE:X64 x64\Release\addStudentData.obj
+         x64\Release\changeStudentData.obj
+         x64\Release\main.obj
+         x64\Release\mainInterface.obj
+         x64\Release\manger.obj
+         x64\Release\regeistered.obj
+         x64\Release\StudentMangerSystem.obj
+         x64\Release\teacherManger.obj
+         x64\Release\teacherMangerSystem.obj
+         x64\Release\teacherRrgeistered.obj
+         x64\Release\qrc_QtGuiApplication1.obj
+         x64\Release\moc_mainInterface.obj
+         x64\Release\moc_StudentMangerSystem.obj
+         x64\Release\moc_manger.obj
+         x64\Release\moc_teacherMangerSystem.obj
+         x64\Release\moc_regeistered.obj
+         x64\Release\moc_teacherRrgeistered.obj
+         x64\Release\moc_addStudentData.obj
+         x64\Release\moc_changeStudentData.obj
+         x64\Release\moc_teacherManger.obj
+         QtGuiApplication1.vcxproj -> D:\vs2015代码\StudentMangerSystem\x64\Release\QtGuiApplication1.exe
+     1>已完成生成项目“D:\vs2015代码\StudentMangerSystem\QtGuiApplication1\QtGuiApplication1.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\vs2015代码\StudentMangerSystem\QtGuiApplication1\QtGuiApplication1.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:07.51
